@@ -14,6 +14,14 @@ int main()
 
 	cout << 10 + 2 * 20 << endl;
 
+	float MyR = 0.1f;
+	float MyG = 0.3f;
+	float MyB = 0.2f;
+
+	float Graycolor = (0.299f * MyR) + (0.587f*MyG) + (0.114f * MyB);
+
+
+	cout << MyR << endl;
 
 
 	return 0;
